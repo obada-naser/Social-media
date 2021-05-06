@@ -1,28 +1,25 @@
 body{ 
   margin:0%;
-<<<<<<< HEAD
-  background-color: #f1f0eb;
-=======
-  background-color: #f0ebcc;
->>>>>>> 0d7d5791861f56b3f484443b4a60b406835bffa8
+
+  background-color: #f1e6b0;
+
+  
 
 
 }
 
 header{
-<<<<<<< HEAD
+
   color:hsl(200, 84%, 38%);
   background-color: #b8cddb;
   height:80px ;
   
 }
 
-=======
-  color: #f6dcbf;
-  background-color: #3d84b8;
-  height:80px ;
-}
->>>>>>> 0d7d5791861f56b3f484443b4a60b406835bffa8
+
+  
+
+
 header nav{
   float: right;
   width: 30%;
@@ -38,11 +35,10 @@ header nav ul li{
 }
 #first{
   background-color: #a7d0cd;
-<<<<<<< HEAD
+
   width: 100%
-=======
-  width: 90%
->>>>>>> 0d7d5791861f56b3f484443b4a60b406835bffa8
+
+  
 
 }
 #first h3{
@@ -59,26 +55,29 @@ font-size: 20px
 .image-container{
   text-align: center;
   display: inline-block;
-<<<<<<< HEAD
-  height: 300px;
-  width: 400px;
-=======
+
+ 
+
   height: 200px;
   width: 30%;
->>>>>>> 0d7d5791861f56b3f484443b4a60b406835bffa8
+
   margin-left: 30px;
 }
 
 footer{
-  height: 100px;
-<<<<<<< HEAD
+  height: 250px;
+
   color: #d13a6f;
   background-color:#b8cddb;
   text-align: center;
 }
-=======
-  color: #f4abc4;
-  background-color: hsl(271.01,91.75%,19.02%);
-  text-align: center;
+
+
+
+
+#youtube{
+  
 }
->>>>>>> 0d7d5791861f56b3f484443b4a60b406835bffa8
+#facebook{
+
+}

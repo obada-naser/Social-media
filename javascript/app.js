@@ -42,7 +42,7 @@ var favSocMedia = prompt("what is your favourite social media ?");
 
 
 
-var times = prompt('how many times do you use ' + favSocMedia + '?');
+var times = prompt('how many times do you use ' + favSocMedia + ' in a day ?');
 document.write('<h3>' + 'This is how many times you use ' + favSocMedia + ' ' + ':' + ' ' + times + '</h3>');
 
 
@@ -62,6 +62,11 @@ for (var i = 0; i < times; i++) {
   else if (favSocMedia == "instagram") {
 
     document.write('<img src="https://nveloop.com/wp-content/uploads/2021/02/instagram.jpg" width=15%"  >')
+
+  }
+  else if (favSocMedia == "whatsapp") {
+
+    document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width=15%"  >')
 
   }
 

@@ -9,7 +9,6 @@ var age = prompt("how old are you ?");
 
 
 
-var age = prompt("how old are you ?");
 
 
 while (age <= 18 || age >= 50) {

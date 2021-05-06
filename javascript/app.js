@@ -2,7 +2,12 @@ alert("Hello")
 
 var userName = prompt("what is your name ?");
 alert('Hello' + ' ' + userName);
+
 alert("This website is for ages between 18 and 50  ")
+
+var age = prompt("how old are you ?");
+
+
 
 var age = prompt("how old are you ?");
 

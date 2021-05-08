@@ -69,6 +69,11 @@ for (var i = 0; i < times; i++) {
     document.write('<a href="https://www.whatsapp.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width=10%" ></a>')
 
   }
+  else if (favSocMedia == "whatsapp") {
+
+    document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width=15%"  >')
+
+  }
 
   else {
     alert("please add your favourite social media")

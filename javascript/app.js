@@ -40,6 +40,10 @@ console.log("hello");
 
 var favSocMedia = prompt("what is your favourite social media ?");
 
+while(favSocMedia != "facebook" && favSocMedia != "youtube" && favSocMedia != "instagram" && favSocMedia != "whatsapp"){
+  favSocMedia = prompt("Sorry, this is not an existent social media. Please, enter a correct answer !");
+}
+
 
 
 var times = prompt('how many times do you use ' + favSocMedia + ' in a day ?');
@@ -67,6 +71,11 @@ for (var i = 0; i < times; i++) {
   else if (favSocMedia == "whatsapp") {
 
     document.write('<a href="https://www.whatsapp.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width=10%" ></a>')
+
+  }
+  else if (favSocMedia == "whatsapp") {
+
+    document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width=15%"  >')
 
   }
 

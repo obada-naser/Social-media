@@ -43,7 +43,12 @@ header nav ul li{
 }
 #first h3{
 color:#3d84b8;
-font-size: 20px
+font-size: 25px;
+text-align: center;
+}
+#first h4{
+  color:#d13a6f;
+  text-align: center;
 }
 
 #second{

@@ -52,7 +52,7 @@ function Media(favourite) {
 
 
 }
-=======
+
 while(favSocMedia != "facebook" && favSocMedia != "youtube" && favSocMedia != "instagram" && favSocMedia != "whatsapp"){
   favSocMedia = prompt("Sorry, this is not an existent social media. Please, enter a correct answer !");
 }
